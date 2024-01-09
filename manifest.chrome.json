@@ -1,0 +1,23 @@
+{
+  "name": "Trip Planner",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "A trip planner HTML5 app",
+  "icons": {
+    "128": "trip-128.png" //
+  },
+  "app": {
+     "launch" : {
+        "local_path" : "index.html",
+        "container": "panel"
+     }
+//      "background" : {
+//          "scripts" : [ "background.js" ]
+//      }
+//    "launch": {
+//      "local_path": "index.html",
+//      "container": "window"
+//    }
+  },
+  "permissions": ["https://*.dropbox.com/", "http://*.dropbox.com/"]
+}
